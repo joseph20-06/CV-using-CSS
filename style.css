@@ -1,0 +1,123 @@
+*{
+margin: 0;
+padding: 0;
+}
+.grid{
+  width: 65%;
+  margin-left: 300px;
+  display: grid;
+    background-color:  #90caf9;
+grid-template-columns: 250px 1fr ;
+grid-template-rows: 150px 250px 200px ;
+}
+.image{
+  left: 21px;
+position: relative;
+border-radius: 300px;
+border:5px solid  #5d99c6;
+}
+h2{
+  padding-bottom: 5px;
+}
+.Objective{
+  display: grid;
+  position: relative;
+  background-color:#90caf9;
+  grid-area: 1/2/2/3;
+}
+.Contact{
+  display: grid;
+  width: 200px;
+grid-area:1/1/2/2;
+  position: relative;
+  top: 6px;
+  left: 5px;
+
+}
+.Contact li{
+  position: relative;
+  left: 18px;
+  top:10px;
+}
+.Education{
+  top:5px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:1fr ;
+  display: grid;
+  position: relative;
+  background-color: #c3fdff;
+  grid-area: 2/2/3/3;
+}
+.edugrid{
+position: relative;
+top: 50px;
+margin-bottom: 30px;
+}
+.edugrid li{
+  position: relative;
+  left:80px;
+  list-style: none;
+  padding-bottom: 33px;
+}
+.uledu li{
+  left:20px;
+  position: relative;
+bottom:140px;
+}
+.Skills{
+  display: grid;
+   grid-area: 3/1/4/3;
+  position: relative;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 300px ;
+  background-color:  #90caf9;
+}
+.container1{
+  position: relative;
+  left: 5px;
+  bottom:290px;
+
+}
+.container{
+  display: grid;
+  position:relative;
+  grid-area:1/1/2/2;
+  top:50px;
+  left:20px;
+}
+.progress{
+  display: grid;
+  position:relative;
+  top:48px;
+    grid-area: 1/2/2/3;
+    }
+  .progress li{
+      list-style: none;
+      padding-bottom: 2px;
+      position: relative;
+    }
+.container2{
+  background-color: #c3fdff;
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-template-columns:1fr 5fr;
+      grid-area: 4/2/5/4;
+  }
+  .Hobbies{
+        position: relative;
+        right: 130px;
+  }
+  .Hobbies li{
+    position: relative;
+    top: 2px;
+  }
+  .Languages{
+      position: relative;
+      padding-top: 4px;
+      right: 240px;
+    }
+  .Languages li{
+    left: 9px;
+      position: relative;
+      top:3px;
+    }
